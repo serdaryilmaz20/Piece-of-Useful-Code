@@ -1,7 +1,7 @@
 String[] atp = {"Rafael Nadal", "Novak Djokovic", "Stanislas Wawrinka", "David Ferrer", "Roger Federer"};
         List<String> oyuncular = Arrays.asList(atp);
  
-        // Eski döngü yapısı
+        // Eski for dongusu
         for (String player : oyuncular) {
             System.out.print(player + "; ");
         }
