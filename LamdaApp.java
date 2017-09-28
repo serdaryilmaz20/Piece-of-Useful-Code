@@ -7,7 +7,7 @@ String[] atp = {"Rafael Nadal", "Novak Djokovic", "Stanislas Wawrinka", "David F
         }
  
         System.out.println();
-        // Lambda kullanarak fonksiyonel kullanım
+        // Lambda kullanarak fonksiyonel for dongusu
         oyuncular.forEach((oyuncu) -> System.out.print(oyuncu + "; "));
  
         System.out.println();
